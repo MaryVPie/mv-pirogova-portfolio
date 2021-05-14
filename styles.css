@@ -1,0 +1,47 @@
+/* 
+universal selector (*) selects all HTML 
+elements on the page
+*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* 
+For body element styles the background white
+*/
+body {
+    background-color: #f2f3f2;
+}
+
+/*
+Sets styles for header element and its subelements
+*/
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: "Trirong", serif;/*'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    background-color: #32945b;
+    color: #ffffff;
+}
+
+
+.header h1 {
+    display: block;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.header nav {
+    display: inline-block;
+    padding-top: 25px;
+    margin-right: 15px;
+    font-family: "Trirong", serif;/*'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;*/
+    font-size: 20px;
+    list-style-type: none;
+       
+}
+/*
+==========================================================
