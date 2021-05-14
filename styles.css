@@ -43,7 +43,7 @@ Sets styles for header element and its subelements
     list-style-type: none;
           
 }
-.header .nav a {
+.nav a {
 
     color: black;
 }
