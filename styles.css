@@ -11,7 +11,7 @@ elements on the page
 For body element styles the background white
 */
 body {
-    background-color: #f2f3f2;
+    background-color: #83e0f7;
 }
 
 /*
@@ -23,7 +23,7 @@ Sets styles for header element and its subelements
     justify-content: space-between;
     padding: 20px;
     font-family: "Trirong", serif;/*'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
-    background-color: #32945b;
+    background-color: #cfaf44;
     color: #ffffff;
 }
 
@@ -41,7 +41,11 @@ Sets styles for header element and its subelements
     font-family: "Trirong", serif;/*'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;*/
     font-size: 20px;
     list-style-type: none;
-       
+          
+}
+.header .nav a {
+
+    color: black;
 }
 /*
 ==========================================================
