@@ -2,10 +2,10 @@
 universal selector (*) selects all HTML 
 elements on the page
 */
-* {
-    box-sizing: border-box;
-    padding: 0;
+*, *:before, *:after {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /* 
 For body element styles the background white
@@ -60,16 +60,14 @@ Sets styles for header element and its subelements
 
 /**/
 .main {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2%;
+        margin-top: 2%;
 }
 
 /**/
-.main head {
+.main .head {
     font-family: "Trirong", serif;
     font-size: 20px;
-    color: brown;
+    color: rgb(245, 238, 238);
 }
 
 /**/
@@ -95,6 +93,53 @@ Sets styles for header element and its subelements
     flex: 1 0 0;
     padding: 10px;
     text-align: center;
+    justify-content: space-between;
     border-style: solid;
     border-width: 1px;
+    
+}
+.contact-me ul {
+    list-style-type: none;
+}
+
+.contact-me li {
+    display: inline-block;
+    padding: 20px 25px;
+
+}
+
+.border-after {
+    border-right: 2px solid #9c2a69;
+    padding-left: 2px;
+  }
+
+.row {
+    border: 1px dashed coral;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+.column {
+    margin: 5px 0;
+    /*border: 1px dashed green;*/
+    display: flex;
+    flex-direction: column;
+    min-width: 33.33%;
+  }
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(144, 238, 141);
+    color: rgb(10, 9, 9);
+   }
+
+footer *{
+   padding-top: 5px;
 }
