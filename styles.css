@@ -8,7 +8,7 @@ elements on the page
     box-sizing: border-box;
 }
 /* 
-For body element styles the background white
+
 */
 body {
     background-color: #46344E;
@@ -21,9 +21,37 @@ p {
 /*
 Sets styles for header element and its subelements
 */
+.header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: "Trirong", serif;
+    background-color: #46344E;
+    color: #FAED26;
+}
 
-/*
-==========================================================*/
+.header h1 {
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+}
+
+.header > nav {
+    display: flex;
+    flex-direction: column;
+    font-family: "Trirong", serif, 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+             
+}
+.header > nav > a {
+    color: white;
+    height: 40px;  margin: 4px;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: underline;
+}
+
+==========================================================
 /*sets text underline*/
 .underline {
     text-decoration: underline;
@@ -46,6 +74,7 @@ Sets styles for header element and its subelements
     text-decoration: underline;
 }
 
+/* Sets styles for images */
 
 .figimg {
     height: 200px;
@@ -81,7 +110,6 @@ Sets styles for header element and its subelements
     flex: 1 0 0;
     padding: 10px;
     text-align: center;
-    /* border-style: solid; */
     border-width: 1px;
     
     
@@ -92,7 +120,6 @@ Sets styles for header element and its subelements
     flex: 1 0 0;
     padding: 10px;
     text-align: center;
-    /* border-style: solid; */
     border-width: 1px;
 }
 
@@ -118,18 +145,12 @@ Sets styles for header element and its subelements
   }
 
 .row {
-    /* border: 1px dashed coral; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     margin: 10px 0;
   }
-
-  /* .header-style {
-    border-bottom: 2px dashed #9c2a69;
-
-  } */
 
   .column {
     margin: 5px 0;
@@ -161,35 +182,6 @@ footer *{
 }
 
 
-.header {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-    font-family: "Trirong", serif;
-    background-color: #46344E;
-    color: #FAED26;
-}
-
-.header h1 {
-    font-weight: bold;
-    font-size: 26px;
-    text-align: center;
-}
-
-.header > nav {
-    display: flex;
-    flex-direction: column;
-    font-family: "Trirong", serif, 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-             
-}
-.header > nav > a {
-    color: white;
-    height: 40px;  margin: 4px;
-    text-decoration: none;
-    text-align: center;
-    text-decoration: underline;
-}
 
 
 
@@ -243,20 +235,14 @@ footer *{
         flex-direction: row;
         padding: 14px 20px; 
         margin: 0;
-    }
-
-     
+    }  
     
 }
 
 
 .card {
     padding: 15px;
-    /* Add shadows to create the "card" effect */
-    /* box-shadow: 10px 10px 10px 10px red; */
-    /* transition: 0.3s; */
     height: 100%;
-    /* padding: 15px 0; */
     
   }
   
@@ -264,10 +250,19 @@ footer *{
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+
+  .card a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .card a:hover{
+      color: white;
+      text-decoration: underline;
+  }
   
   /* Add some padding inside the card container */
   .container {
-    /* padding: 2px 16px; */
     height: 100%;
     border: 4px solid  #5A5560;
   }
