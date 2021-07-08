@@ -1,9 +1,11 @@
 # Developer-portfolio
 
 ## About
-Hello! My name is Mariia and this is my first attempt to create a developer's portfolio page from scratch. Right now it is very similar with mockup. Very soon I will create my new portfolio with some Frameworks, my photo and add there my new projects.
+Hello! My name is Mariia and this is my first attempt to create a developer's portfolio page from scratch. Right now it is similar with mockup but with different colors. Very soon I will create my new portfolio with some Frameworks, my photo and add there my new projects. 
 
-[Portfolio](https://maryvpie.github.io/mv-pirogova-portfolio/) - deployed version
+**Note:** I tried to create a portfolio without the use of JS so to get to project you will need to click on title not card.
+
+[Portfolio deployed version](https://maryvpie.github.io/mv-pirogova-portfolio/)
 
 ## User Story
 
@@ -15,7 +17,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 ## Screenshots and mockups of the page
 
-|<img src=".\img/screencapture-file-C-Users-MaryV-Desktop-BOOTCAMP-my-homework-week2-mv-pirogova-portfolio-index-html-2021-07-08-12_56_03.png" width="500" height="750" alt="Homepage"/>| <img src=".\img/02-advanced-css-desktop.png" width="500" height="350" alt="Mockup"/> |
+|<img src=".\img/screencapture-file-C-Users-MaryV-Desktop-BOOTCAMP-my-homework-week2-mv-pirogova-portfolio-index-html-2021-07-08-12_56_03.png" width="500" height="750" alt="Homepage"/>| <img src=".\img/02-advanced-css-desktop.png" width="500" height="550" alt="Mockup"/> |
 | --- | --- |
 |  Work done | Mockup |
 
@@ -23,7 +25,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 ## What's included
 
-Here I applied some skills like flexbox, media queries, and CSS variables. 
+Here I applied some skills like flex-box, media queries.
 
 - index.html:
   - optimized for the accessibility needs
